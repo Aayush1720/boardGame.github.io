@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="game.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/6fc69c43c8.js" crossorigin="anonymous"></script>
+<body>
+
+  
+  <div class="main" >
+    
+     <span class="heading">Board Game</span>
+      
+    <div class="main-div">
+      <div class="game-visual">
+       <div class="score">
+      <h5 class="metric" >
+        <span>STAGE:</span>
+        <span class ="stage-metric">Setup</span>
+        </h5>
+      <h5 class = "metric">
+           <span>ROUND:</span>
+        <span class ="round-metric">1</span>
+      </h5>
+      <h5 class="metric">
+           <span>TURN:</span>
+        <span class ="turn-metric">RedPlayer</span>
+      </h5>
+      <h5 class="metric">
+         <span>Red Pieces:</span>
+        <span class ="red-pieces-metric">0</span></h5>
+     <h5 class="metric">
+         <span>Black Pieces:</span>
+        <span class ="black-pieces-metric">0</span>
+      </h5>
+    </div>
+        <div class="superimposed" id="board">
+      </div>
+      </div>
+      <div class="attributes">
+            <div class="nxt">
+      <button  onclick = "roundChange()" > 
+        NextRound <span>-
+        ></span>
+  </button>
+      </div>
+             <div class="nxt1">
+              <button  onclick = "restart()" > 
+                Restart <span>-
+                ></span>
+              </button>
+             </div>
+            <div class="nxt1">
+              <button  onclick = "endGame()" > 
+                End Game <span>-
+                ></span>
+              </button>
+             </div>
+        <div class="result">
+          <h4>Winner : </h4>
+          <h4 class="winner"></h4>
+        </div>
+        
+    </div>
+      
+  </div>
+  <table>
+  
+    
+  
+  </div>
+    </table>
+</body>
+
+</body>
+<script src= "game.js" ></script>
+</html>
